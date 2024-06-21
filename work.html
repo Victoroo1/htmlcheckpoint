@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-   <section>
-    <form>
-        <h2>Work Experience</h2>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div>
+      <h2>Work Experience</h2>
+      <form>
+        <fieldset>
+          <legend>Company 1</legend>
+          <br />
+          <label for="job-title">Job Title:</label><br />
+          <input type="text" id="job-title" name="job-title" /><br /><br />
 
+          <label for="duration">Duration:</label><br />
+          <input type="text" id="duration" name="duration" /><br /><br />
 
+          <label for="description">Description:</label><br />
+          <textarea id="description" name="description"></textarea>
+          <br /><br />
+        </fieldset>
+        <br /><br />
+      </form>
 
+      <br />
+      <br />
+      <br />
+      <form>
+        <fieldset>
+          <legend>Company 2</legend>
+          <br />
+          <label for="job-title">Job Title:</label><br />
+          <input type="text" id="job-title" name="job-title" /><br /><br />
 
-<input type="text" id="company" name="company" readonly value="Company 1"><br>
+          <label for="duration">Duration:</label><br />
+          <input type="text" id="duration" name="duration" /><br /><br />
 
-<label for="job-title">Job Title:</label><br>
-<input type="text" id="job-title" name="job-title" readonly value="Job Title 1"><br>
+          <label for="description">Description:</label><br />
+          <textarea id="description" name="description"></textarea><br /><br />
+        </fieldset>
+        <br /><br />
 
-<label for="duration">Duration:</label><br>
-<input type="text" id="duration" name="duration" readonly value="2020-2024"><br>
-
-<label for="description">Description:</label><br>
-<textarea id="description" name="description" readonly>Job description</textarea><br>
-
-</div><br>
-
-
-<input type="text" id="company" name="company" readonly value="Company 2"><br>
-
-<label for="job-title">Job Title:</label><br>
-<input type="text" id="job-title" name="job-title" readonly value="Job Title 2"><br>
-
-<label for="duration">Duration:</label><br>
-<input type="text" id="duration" name="duration" readonly value="2018-2024"><br>
-
-<label for="description">Description:</label><br>
-<textarea id="description" name="description" readonly>Job description</textarea><br>
-
-
-    </form>
-   </section> 
-</body>
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+  </body>
 </html>
